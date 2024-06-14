@@ -9,15 +9,18 @@ import java.io.Serializable;
 @Component
 public class CustomPermissionEvaluator implements PermissionEvaluator {
     private final UserProfileSecurity userProfileSecurity;
+
     public CustomPermissionEvaluator(UserProfileSecurity userProfileSecurity) {
         this.userProfileSecurity = userProfileSecurity;
     }
+
     @Override
     public boolean hasPermission(Authentication authentication,
                                  Object targetDomainObject, Object permission) {
         // Not used in this example
         return false;
     }
+
     @Override
     public boolean hasPermission(Authentication authentication,
                                  Serializable targetId,

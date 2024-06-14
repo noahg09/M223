@@ -1,12 +1,12 @@
 package com.axa.warehouse.test;
 
+import com.axa.warehouse.model.Role;
 import com.axa.warehouse.repository.RoleRepository;
 import com.axa.warehouse.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.beans.factory.annotation.Autowired;
-import com.axa.warehouse.model.Role;
 
 import java.util.stream.Collectors;
 

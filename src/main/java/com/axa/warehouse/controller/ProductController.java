@@ -1,7 +1,6 @@
 package com.axa.warehouse.controller;
 
 import com.axa.warehouse.model.Product;
-import com.axa.warehouse.repository.ProductRepository;
 import com.axa.warehouse.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
